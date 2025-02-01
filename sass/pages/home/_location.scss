@@ -1,0 +1,16 @@
+.#{$prefix}location {
+	.#{$prefix}location-wrapper {
+		width: 100%;
+		height: 600px;
+		iframe {
+			width: 100%;
+			height: 600px;
+		}
+		.#{$prefix}location-content {
+			position: absolute;
+			top: 100px !important;
+			left: 150px;
+			background-color: red;
+		}
+	}
+}

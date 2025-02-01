@@ -1,0 +1,19 @@
+.entry-content {
+	.#{$prefix}driving-test-with-us {
+		background: url(../../../assets/media/test.webp);
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+		.overlay {
+			background-color: rgba($color: #fff3c8, $alpha: 0.5) !important;
+			z-index: -1;
+		}
+		.#{$prefix}ds-driving-test-wrapper {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 111 !important;
+		}
+	}
+}

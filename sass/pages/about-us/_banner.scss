@@ -1,0 +1,21 @@
+.entery-header {
+	background: rgb(253, 196, 0);
+	background: linear-gradient(90deg, rgba(253, 196, 0, 1) 20%, rgba(255, 226, 128, 1) 100%);
+	animation: infiniteScrollBg 5s linear infinite;
+}
+.entry-content {
+	.#{$prefix}our-team {
+		.owl-stage {
+			margin: 25px 0px;
+			overflow: visible;
+		}
+	}
+}
+@keyframes infiniteScrollBg {
+	0% {
+		background-position: 0 50%;
+	}
+	100% {
+		background-position: (-$background-size * 2) 50%;
+	}
+}

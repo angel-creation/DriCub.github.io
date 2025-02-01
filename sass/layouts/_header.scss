@@ -1,0 +1,26 @@
+.#{$prefix}header {
+	.#{$prefix}header-top-wrap {
+		.#{$prefix}icon-wrapper {
+			.#{$prefix}icon-box {
+				width: 40px;
+				height: 40px;
+				svg {
+					transform: rotate(-45deg);
+				}
+				transform: rotate(45deg) !important;
+			}
+		}
+	}
+	.#{$prefix}header-main-wrapper {
+		.#{$prefix}menu {
+			li {
+				a {
+					transition: 0.5s all;
+					&:hover {
+						color: $primary !important;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.entry-content {
+	.#{$prefix}blog-post-wrapper {
+		overflow: hidden;
+		.#{$prefix}latest-news-wrapper {
+			overflow: hidden;
+			figure {
+				span {
+					width: 80px;
+					height: 80px;
+				}
+				overflow: hidden;
+				img {
+					overflow: hidden;
+					transition: 0.5s ease-in-out;
+
+					&:hover {
+						overflow: hidden;
+						transform: rotate(0deg) scale(2.4);
+					}
+				}
+			}
+		}
+		a {
+			transition: 0.5s all;
+			&:hover {
+				color: $primary !important;
+			}
+		}
+	}
+}

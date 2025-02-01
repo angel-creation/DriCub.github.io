@@ -1,0 +1,54 @@
+.#{$prefix}banner {
+	background: url(../../assets/media/banner.webp);
+	width: $background-size;
+	height: 100%;
+	background-position: center;
+	background-repeat: repeat-x;
+	transition: 0.9s ease-in-out;
+	animation: infiniteScrollBg 600ms linear infinite;
+
+	.#{$prefix}car-wrapper {
+		position: relative;
+		.#{$prefix}car-wheel-1 {
+			position: absolute;
+			bottom: 76px;
+			right: 312px;
+			animation: rotate-animation 900ms infinite linear;
+		}
+		.#{$prefix}car-wheel-2 {
+			position: absolute;
+			bottom: 76px;
+			left: 155px;
+			animation: rotate-animation 900ms infinite linear;
+		}
+	}
+	.#{$prefix}left-card-wrap {
+		top: 150px;
+		left: 150px;
+	}
+	.#{$prefix}right-card-wrap {
+		top: 150px;
+		right: 150px;
+	}
+}
+
+@keyframes infiniteScrollBg {
+	0% {
+		background-position: 0 50%;
+	}
+	100% {
+		background-position: (-$background-size * 2) 50%;
+	}
+}
+
+@keyframes rotate-animation {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: rotate(-180deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}

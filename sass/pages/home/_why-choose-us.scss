@@ -1,0 +1,14 @@
+.#{$prefix}why-choose-us {
+	.#{$prefix}why-choose-us-wrapper {
+		.#{$prefix}why-choose-inner-wrapper {
+			figure {
+				width: 119px;
+				height: 119px;
+				transform: rotate(45deg);
+				img {
+					transform: rotate(-45deg);
+				}
+			}
+		}
+	}
+}
