@@ -26,7 +26,8 @@
 ![edumin](https://github.com/user-attachments/assets/9f3cdb2e-b588-467a-a14f-cf1794a04e23)
 
 # choicy
-![choicy](https://github.com/user-attachments/assets/162bc56f-9c80-4861-8cd8-e668842c8dfa)
+![choicy](https://github.com/user-attachments/assets/cc8a9207-78fa-4f3c-904d-004a86100fc0)
+
 
 
 
