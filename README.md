@@ -1,6 +1,5 @@
-# Website
-
-
+# A Website
+The background color is `#FF0000` for light mode and `#000000` for dark mode.
 # Dricub
 ![dricub](https://github.com/user-attachments/assets/6b216c1b-4f1f-4757-aa80-ecb0cf8ce4c6)
 
